@@ -14,6 +14,9 @@ ul,
 li {
     list-style: none;
 }
+h3 {
+    color: #fff;
+}
 a {
     text-decoration: none;
     color: #fff;
@@ -21,6 +24,7 @@ a {
 button {
     background: none;
     border: none;
+    cursor: pointer;
 }
 .container {
     width: 1200px;
@@ -30,7 +34,7 @@ button {
 
 .wrapper {
     height: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -58,16 +62,17 @@ button {
 }
 .navigate {
     width: 950px;
-    padding: 5px;
     margin: 0 auto;
+    padding: 6px;
     display: flex;
     align-items: center;
     background-color: #244b8a;
 }
 input {
-    background-color: #183748;
-    width: 197px;
-    height: 30px;
+    border: none;
+    height: 26px;
+    background-color: transparent;
+    text-align: center;
 }
 .header_nav {
     display: flex;
@@ -82,9 +87,63 @@ input {
 }
 .main {
     flex: 1 1 auto;
+    background-color: #183748;
 }
 .slider_img {
     object-fit: cover;
     width: 100%;
     height: 450px;
+}
+.text {
+    display: flex;
+    border: 1px solid #244b8a;
+    background-color: #183748;
+}
+.search_btn {
+    width: 26px;
+    height: 26px;
+    background-color: #549cc8;
+}
+.margin {
+    margin: 50px 0;
+}
+.footer {
+    background-color: #183748;
+}
+
+/* slider */
+
+.cards {
+    display: flex;
+}
+.card {
+    width: 390px;
+    height: 500px;
+    box-shadow: -4px 9px 60px 40px rgba(34, 60, 80, 0.36);
+}
+.card:not(:last-child) {
+    margin-right: 11px;
+}
+.cart_img {
+    height: 310px;
+    width: 100%;
+}
+.cart-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_title {
+    background-color: #22749a;
+    height: 140px;
+    padding: 15px;
+}
+.cart-title {
+    width: 110px;
+    height: 33px;
+    background-color: #516e0e;
+}
+.card_title h2,
+p {
+    padding: 5px;
 }

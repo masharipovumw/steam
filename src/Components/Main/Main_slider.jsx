@@ -9,6 +9,7 @@ import 'swiper/css/navigation'
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper'
+import TitleComponent from './Titlecomponent'
 
 export default function Slider() {
     return (

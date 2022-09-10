@@ -1,4 +1,5 @@
 import React from 'react'
+import Steamicon from '../../img/Search'
 import Navlink from './Navigate_link'
 
 function Navigate(props) {
@@ -13,7 +14,12 @@ function Navigate(props) {
                     <Navlink title='новости' />
                     <Navlink title='лаборатории' />
                 </div>
-                <input type='text' placeholder='search' />
+                <div className='text'>
+                    <input type='text' placeholder='search' />
+                    <button className='search_btn'>
+                        <Steamicon/>
+                    </button>
+                </div>
             </div>
         </div>
     )
