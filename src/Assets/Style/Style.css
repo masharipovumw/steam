@@ -146,16 +146,26 @@ input {
         rgba(0, 0, 0, 1) 53%,
         rgba(81, 110, 14, 1) 54%
     );
+    border: 5px solid #22749a;
     margin: 15px;
     color: #fff;
     font-weight: 400;
     font-size: 15px;
-    transition: 0.05ms all ease;
+    transition: 0.5s all ease;
 }
 .cart-title:hover {
-    border: 5px solid #22749a;
+    border: none;
 }
 .card_title h2,
 p {
     padding: 5px;
+}
+.p {
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #82a08e;
+}
+.h3 {
+    padding-top: 20px;
 }

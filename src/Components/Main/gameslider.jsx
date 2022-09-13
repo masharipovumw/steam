@@ -38,7 +38,7 @@ export default function Gameslider() {
                         </div>
                         <div className='card_title'>
                             <h2>call of duty</h2>
-                            <p>Заканчивается 15 сен в 22:00.</p>
+                            <p className='p'>Заканчивается 15 сен в 22:00.</p>
                             <Button title='-10%' />
                         </div>
                     </div>
@@ -54,7 +54,7 @@ export default function Gameslider() {
                         </div>
                         <div className='card_title'>
                             <h2>efutbool 2022</h2>
-                            <p>Заканчивается 20 сен в 00:00.</p>
+                            <p className='p'>Заканчивается 20 сен в 00:00.</p>
                             <Button title='buy for free' />
                         </div>
                     </div>
@@ -70,7 +70,7 @@ export default function Gameslider() {
                         </div>
                         <div className='card_title'>
                             <h2>rdr 2</h2>
-                            <p>rockstar.</p>
+                            <p className='p'>rockstar.</p>
                             <Button title='-5%' />
                         </div>
                     </div>
@@ -86,7 +86,7 @@ export default function Gameslider() {
                         </div>
                         <div className='card_title'>
                             <h2>forza harizon</h2>
-                            <p>Заканчивается 1 сен в 22:00.</p>
+                            <p className='p'>Заканчивается 1 сен в 22:00.</p>
                             <Button title='free' />
                         </div>
                     </div>
@@ -102,8 +102,8 @@ export default function Gameslider() {
                         </div>
                         <div className='card_title'>
                             <h2>mafia d.e </h2>
-                            <p>2k</p>
-                            <Button title='bithday 2k games' />
+                            <p className='p'>2k</p>
+                            <Button title='bithday mafia' />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -118,7 +118,7 @@ export default function Gameslider() {
                         </div>
                         <div className='card_title'>
                             <h2>sims 4</h2>
-                            <p>ea games</p>
+                            <p className='p'>ea games</p>
                             <Button title='classic game' />
                         </div>
                     </div>
