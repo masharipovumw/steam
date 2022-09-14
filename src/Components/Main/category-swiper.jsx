@@ -29,6 +29,9 @@ export default function Categoty() {
                             className='category_img'
                         />
                     </div>
+                    <div className='bg-color'>
+                        <h2>Гонки</h2>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='categoty-cart'>
@@ -37,6 +40,9 @@ export default function Categoty() {
                             alt=''
                             className='category_img'
                         />
+                    </div>
+                    <div className='bg-color'>
+                        <h2>Стратегия</h2>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -47,6 +53,9 @@ export default function Categoty() {
                             className='category_img'
                         />
                     </div>
+                    <div className='bg-color'>
+                        <h2>Бесплатно</h2>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='categoty-cart'>
@@ -55,9 +64,33 @@ export default function Categoty() {
                             alt=''
                             className='category_img'
                         />
-                        <div className='bg-color'>
-                            <h2>Головоломка</h2>
-                        </div>
+                    </div>
+                    <div className='bg-color'>
+                        <h2>Головоломка</h2>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='categoty-cart'>
+                        <img
+                            src='./img/fight.png'
+                            alt=''
+                            className='category_img'
+                        />
+                    </div>
+                    <div className='bg-color'>
+                        <h2>Файтинг</h2>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='categoty-cart'>
+                        <img
+                            src='./img/horror.png'
+                            alt=''
+                            className='category_img'
+                        />
+                    </div>
+                    <div className='bg-color'>
+                        <h2>Хоррор</h2>
                     </div>
                 </SwiperSlide>
             </Swiper>
