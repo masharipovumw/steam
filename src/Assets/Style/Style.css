@@ -169,3 +169,13 @@ p {
 .h3 {
     padding-top: 20px;
 }
+.categoty-cart {
+    width: 224px;
+    height: 224px;
+}
+.category_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
