@@ -1,13 +1,13 @@
 import React from 'react';
 import TitleComponent from './Titlecomponent';
 
-const Maintitle = () => {
+const Maintitle = (props) => {
     return (
-        <div>
-            <TitleComponent
-                title='ПОПУЛЯРНОЕ И РЕКОМЕНДУЕМОЕ'
-            />
-        </div>
+            <div className='container'>
+                <h2 className='h3'>
+                    {props.title}
+                </h2> 
+            </div>
     );
 }
 

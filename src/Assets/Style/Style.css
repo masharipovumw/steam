@@ -167,7 +167,8 @@ p {
     color: #82a08e;
 }
 .h3 {
-    padding-top: 20px;
+    color: #fff;
+    padding: 20px 0;
 }
 .categoty-cart {
     width: 224px;
@@ -176,6 +177,7 @@ p {
     border: solid #bdbdbd 0;
     opacity: 1;
     filter: alpha(opacity= 98);
+    opacity: 10;
     transition: all 0.5s ease;
 }
 .categoty-cart:hover {
@@ -192,4 +194,9 @@ p {
     color: #fff;
     text-align: center;
     transform: translateY(-50px);
+}
+.user_rec {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
 }
