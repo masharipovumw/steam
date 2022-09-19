@@ -1,4 +1,5 @@
 import React from 'react'
+import Catalog from './Catalog'
 import Categoty from './category-swiper'
 import Gameslider from './gameslider'
 import Maintitle from './Maintitle'
@@ -11,12 +12,14 @@ export default function Main() {
             <div className='container'>
                 <Maintitle title='ПОПУЛЯРНОЕ И РЕКОМЕНДУЕМОЕ' />
                 <Slider />
-                <Maintitle title ='СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ'/>
+                <Maintitle title='СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ' />
                 <Gameslider />
-                <Maintitle title ='ПОИСК ПО КАТЕГОРИЯМ И НЕ ТОЛЬКО' />
+                <Maintitle title='ПОИСК ПО КАТЕГОРИЯМ И НЕ ТОЛЬКО' />
                 <Categoty />
-                <Maintitle title ='ВАШ СПИСОК РЕКОМЕНДАЦИЙ' />
-                <Userrec/>
+                <Maintitle title='ВАШ СПИСОК РЕКОМЕНДАЦИЙ' />
+                <Userrec />
+                <Maintitle title='ВАШ СПИСОК РЕКОМЕНДАЦИЙ' />
+                <Catalog/>
             </div>
         </div>
     )
