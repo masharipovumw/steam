@@ -1,6 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Steam from '../../img/logo_steam'
-import HeaderNav from './Header_nav'
 import Navigate from './Navigate'
 
 function Header() {
@@ -13,10 +13,18 @@ function Header() {
                             <Steam />
                         </div>
                         <nav className='header_nav'>
-                            <HeaderNav title='магазин' />
-                            <HeaderNav title='сообщество' />
-                            <HeaderNav title='о steam' />
-                            <HeaderNav title='поддержка' />
+                            <Link to='/shop'>
+                                <h3 className='Navlink'>магазин</h3>
+                            </Link>
+                            <Link to='/group' >
+                                <h3 className='Navlink'>СООБЩЕСТВO</h3>
+                            </Link>
+                            <Link to='/steam'>
+                                <h3 className='Navlink'>О STEAM </h3>
+                            </Link>
+                            <Link to='/help'>
+                                <h3 className='Navlink'>ПОДДЕРЖКА</h3>
+                            </Link>
                         </nav>
                         <button className='dowlond'>установить STEAM</button>
                     </div>
