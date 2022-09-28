@@ -13,12 +13,12 @@ export default function App() {
         <div>
             <Header />
             <Routes>
+                <Route path='/home' element={<Main/>} />
                 <Route path='/shop' element={<Shop />} />
                 <Route path='/group' element={<Group />} />
                 <Route path='/steam' element={<Steam />} />
                 <Route path="/help" element={<Help />} />
             </Routes>
-            <Main />
             <Footer />
         </div>
     )

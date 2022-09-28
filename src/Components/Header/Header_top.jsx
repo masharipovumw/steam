@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Steam from '../../img/logo_steam'
+import Steamicon from '../../img/logo_steam'
 import Navigate from './Navigate'
 
 function Header() {
@@ -10,7 +10,9 @@ function Header() {
                 <div className='container'>
                     <div className='header_row'>
                         <div className='header_icon'>
-                            <Steam />
+                            <Link to='/home'>
+                                <Steamicon/>
+                            </Link>
                         </div>
                         <nav className='header_nav'>
                             <Link to='/shop'>
