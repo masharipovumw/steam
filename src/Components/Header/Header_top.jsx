@@ -11,14 +11,14 @@ function Header() {
                     <div className='header_row'>
                         <div className='header_icon'>
                             <Link to='/home'>
-                                <Steamicon/>
+                                <Steamicon />
                             </Link>
                         </div>
                         <nav className='header_nav'>
                             <Link to='/shop'>
                                 <h3 className='Navlink'>магазин</h3>
                             </Link>
-                            <Link to='/group' >
+                            <Link to='/group'>
                                 <h3 className='Navlink'>СООБЩЕСТВO</h3>
                             </Link>
                             <Link to='/steam'>
@@ -28,7 +28,9 @@ function Header() {
                                 <h3 className='Navlink'>ПОДДЕРЖКА</h3>
                             </Link>
                         </nav>
-                        <button className='dowlond'>установить STEAM</button>
+                        <Link to= '/steam'>
+                            <button className='dowlond'>установить STEAM</button>
+                        </Link>
                     </div>
                 </div>
             </header>

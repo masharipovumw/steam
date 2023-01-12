@@ -17,11 +17,12 @@ const Steam = () => {
                         </ul>
                         <h3 className='user'>21,494,059</h3>
                     </div>
-
-                    <button className='Steam-btn'>Загрузить Steam</button>
+                    <a href="https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe">
+                        <button className='Steam-btn'>Загрузить Steam</button>
+                    </a>
                 </div>
                 <div className='steam-img'>
-                    <div className="position"></div>
+                    <div className='position'></div>
                     <img src='./img/portal.gif' alt='' className='Staem-gif' />
                 </div>
             </div>

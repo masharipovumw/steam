@@ -15,9 +15,9 @@ function Navigate(props) {
                     <Navlink title='лаборатории' />
                 </div>
                 <div className='text'>
-                    <input type='text' placeholder='search' />
+                    <input type='text' className='input' placeholder='search' />
                     <button className='search_btn'>
-                        <Steamicon/>
+                        <Steamicon />
                     </button>
                 </div>
             </div>
