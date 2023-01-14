@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Register = () => {
+const Login = () => {
     return (
         <div className='container'>
-            <div className="register_container">
+            <div className='register_container'>
                 <div className='register_menu'>
-                    <h1 className='rainbow'>Registratsia</h1>
+                    <h1 className='rainbow'>Login</h1>
                     <div className='input_line'>
                         <input
                             type='email'
@@ -20,12 +20,16 @@ const Register = () => {
                             placeholder='password'
                         />
                     </div>
-                    <a href='/login' className='forg'>
-                        Forgotten password ?
-                    </a>
+                    <div className='password_line_return'>
+                        <input
+                            type='password'
+                            className='password_line'
+                            placeholder='confirm password'
+                        />
+                    </div>
                     <div className='button_line'>
                         <button className='register_btn'>
-                            <a href='/home'>Send</a>
+                            <a href='/'>Send</a>
                         </button>
                     </div>
                 </div>
@@ -34,4 +38,4 @@ const Register = () => {
     )
 }
 
-export default Register
+export default Login

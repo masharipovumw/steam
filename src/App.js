@@ -6,6 +6,7 @@ import Shop from './Assets/pages/Shop'
 import Steam from './Assets/pages/Steam'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header_top'
+import Login from './Components/Main/login'
 import Main from './Components/Main/Main'
 import Register from './Components/Main/register'
 
@@ -14,6 +15,7 @@ export default function App() {
         <div>
             <Header />
             <Routes>
+                <Route path='/login' element={<Login/>} />
                 <Route path='/' element={<Register/>} />
                 <Route path='/home' element={<Main/>} />
                 <Route path='/shop' element={<Shop />} />

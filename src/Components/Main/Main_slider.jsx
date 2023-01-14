@@ -27,6 +27,7 @@ export default function Slider() {
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
                 className='mySwiper'
+                id='mySwiper'
             >
                 <SwiperSlide>
                     <img src='./img/dota.jpg' alt='dota'className='slider_img' />
